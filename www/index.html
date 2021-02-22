@@ -1,0 +1,86 @@
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/clues.js"></script>
+<script ttype="text/javascript" src="js/second.js"></script>
+<head>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<p></p>
+<h1 style="text-align: center;">221B Baker Street Clues</h1>
+<p style="text-align: center;">Please insert the clue number below</p>
+<p style="text-align: center;"><input type="text" id="search" name="search" /> <button id="button" onclick="showMe()">Search</button></p>
+<div class="row begin-countdown">
+  <div class="col-md-12 text-align: center;">
+    <progress value="30" max="30" id="pageBeginCountdown"></progress>
+    <p style="font-size: 12;"><span id="pageBeginCountdownText">30 </span> seconds remaining...</p>
+  </div>
+</div> <hr>
+<div id="output" style="font-size: larger; text-align: center;"></div>
+
+
+
+
+<!-- var data = [{
+    "number": 1,
+    "text": "No clue."
+  },
+  {
+    "number": 2,
+    "text": "No clue."
+  },
+  {
+    "number": 3,
+    "text": "The Earl of Longworth has constant headaches."
+  },
+  {
+    "number": 4,
+    "text": "MOTIVE CLUE (Four Parts).<br> iii. Tea for how many?<br>iv. Tilt an aircraft to save money."
+  },
+  {
+    "number": 5,
+    "text": "HIDING PLACE CLUES (Four Parts)\\nii. \u201c for the wings of a dove?\u201d\\niii. Reverse of NIL."
+  },
+  {
+    "number": 6,
+    "text": "No clue."
+  },
+  {
+    "number": 7,
+    "text": "MOTIVE CLUE (Three Parts)\\niii. Chemical recipe."
+  },
+  {
+    "number": 8,
+    "text": "If John Kinney was delirious in the Penguin\u2019s lifeboat, his comments may have been ill-advised."
+  },
+  {
+    "number": 9,
+    "text": "Prescott\u2019s ship is being repossessed."
+  },
+  {
+    "number": 10,
+    "text": "MOTIVE CLUE (Two Parts)\\ni. The sincerest form of flattery."
+  },
+]
+
+//document.getElementById("button").onclick = showMe();
+
+ function showMe(){
+     setTimeout(function () { 
+         window.location.reload(true); 
+       }, 5000); 
+ var clueno = document.getElementById('search').value
+ console.log(clueno)
+ var found = getCountryByCode(clueno);
+
+ function getCountryByCode(number) {
+   return data.filter(
+     function(data) {
+       return data.number == number
+
+     }
+ 
+    
+   );  
+ 
+ }  
+ document.getElementById('output').innerHTML = found[0].text -->
+

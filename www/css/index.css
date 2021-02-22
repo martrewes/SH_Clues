@@ -1,0 +1,12 @@
+body {
+    background-color: #29362a;
+    color: white;
+    padding: 40px;
+    font-family: ubuntu;
+    text-align: center;
+  }
+progress {
+color: white;
+background-color: #29362a;
+
+}
